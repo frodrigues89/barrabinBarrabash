@@ -29,11 +29,11 @@ public class LivroDao {
 			stmt.setInt(1, livro.getIsbn());
 			stmt.setInt(2, livro.getQuantidadeEmEstoque());
 			stmt.setString(3, livro.getNome());
-			stmt.setAutores(4, livro.getAutores());
-			stmt.setEditora(5, livro.getEditora());
-			stmt.setDate(6, new Date(livro.getDataLancamento().getTimeInMillis()));
+			//stmt.setAutores(4, livro.getAutores());
+			//stmt.setEditora(5, livro.getEditora());
+			//stmt.setDate(6, new Date(livro.getDataLancamento().getTimeInMillis()));
 			stmt.setInt(7, livro.getNumPaginas());
-			stmt.setCategoria(8, livro.getCategoria());
+			//stmt.setCategoria(8, livro.getCategoria());
 			stmt.setString(9, livro.getResumo());
 			stmt.setDouble(10, livro.getPrecoCompra());
 			stmt.setString(11, livro.getFormatoCapa());
